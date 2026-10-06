@@ -1,0 +1,21 @@
+LensWhisper Object Explorer finds the objects in a photo — what they are, their main colours and their exact outlines — and tells you through TalkBack. It is made for blind and low-vision people, and everything happens on your own phone.
+
+THREE SIMPLE BUTTONS
+• Detect Objects — names the objects in front of the camera.
+• Identify Objects and Colors — names each object and its main colours, for example "Cup, red and white".
+• Explore Photo by Touch — the photo fills the screen. Move your finger over it and hear the name and colours of the object under your finger, with a short vibration each time you cross onto a different one. "List all objects" reads them all.
+
+PRIVATE BY DESIGN
+The app has no internet permission. Nothing it sees can leave your phone: no uploads, no accounts, no ads, no analytics.
+
+WORKS WITH LENSWHISPER
+If you also use LensWhisper, it uses Object Explorer automatically for Identify Objects and Colors, Explore Photo by Touch, Describe TV Image and Explore and Describe, for more accurate object outlines.
+
+FOR DEVELOPERS
+Any Android app can send Object Explorer a photo and get back each object's name, confidence, box and pixel mask, through a documented, open API. The source code and the API guide are on GitHub: github.com/appricodes/LensWhisper-Segmenter
+
+FREE AND OPEN SOURCE
+Object Explorer is free software under the GNU AGPL v3. Object detection uses the YOLOv8 segmentation model by Ultralytics and recognises 80 common kinds of object: people, animals, vehicles, furniture, food, kitchenware, electronics and more.
+
+IMPORTANT
+Results are AI guesses and can be wrong. Never rely on them for safety, health, medicine, money, or for moving around.
