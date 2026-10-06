@@ -1,0 +1,24 @@
+LensWhisper Object Explorer
+Copyright (C) 2026 Mohammad Amiri Moalla
+
+This program is free software: you can redistribute it and/or modify it under the terms of the
+GNU Affero General Public License as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Affero General Public License (the LICENSE file) for more details.
+
+The api/ directory is separately licensed under the Apache License, Version 2.0 (api/LICENSE).
+
+
+THIRD-PARTY COMPONENTS
+
+app/src/main/assets/models/yolov8m_seg_int8.tflite
+    YOLOv8m-seg by Ultralytics, licensed under AGPL-3.0 (https://github.com/ultralytics/ultralytics).
+    Exported with Ultralytics' own TFLite exporter, int8-quantized:
+        from ultralytics import YOLO
+        YOLO("yolov8m-seg.pt").export(format="tflite", int8=True, data="coco128-seg.yaml")
+
+LiteRT (com.google.ai.edge.litert:litert), AndroidX, Jetpack Compose and CameraX,
+    all licensed under the Apache License, Version 2.0.
