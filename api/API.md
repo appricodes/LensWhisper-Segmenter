@@ -87,7 +87,7 @@ package name when the real one isn't there, and any app can declare the same int
 | Build | SHA-256 of the signing certificate |
 |---|---|
 | Builds published on GitHub (developer's own key) | `3DF72F3764EF8A0DD5B62D8F13138306DB58336BDAE2664C133A47F334F1F382` |
-| Google Play (Play app signing) | *added here once the app is on Google Play* |
+| Google Play (Play app signing) | `B8913D90287F837FE6E8FA6525DDDF6D7953FECFF4A6B16969C8F8251AC49C71` |
 
 `SegmenterContract.RELEASE_CERT_SHA256` holds the same values. If you build the companion yourself,
 pass your own certificate's fingerprint to `SegmenterClient(context, setOf(...))`. You can read a
